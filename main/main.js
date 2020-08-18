@@ -4,7 +4,7 @@ const submitForm = (event) =>{
     event.preventDefault(); // blokujemy wysłanie formularza
 
     // pobieramy pola formularza:
-    let firstName = document.querySelector('[name="fname]');
+    let firstName = document.querySelector('[name="fname"]');
     let lastName = document.querySelector('[name="lname"]');
 
 
